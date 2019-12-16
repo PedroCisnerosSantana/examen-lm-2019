@@ -1,0 +1,91 @@
+body {
+    margin-left: 2%;
+    padding: 0%;
+    background: no-repeat url(imagenes/header.jpg);
+    background-size: 100vw;
+    background-color: pink;
+}
+
+  .cabeza {
+      font-size: 3vh;
+    }
+
+  main {
+      background-color: lightgray;
+  }
+
+  header {
+      margin: 16.5vw;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:lightskyblue;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: darksalmon;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  footer{
+      background-color: lightseagreen;
+      text-align: center;
+  }
+
+  span {
+    position: relative;
+  }
+    .container {
+      width: 50%;
+    }
+  
+  .image {
+    display: grid;
+    width: 50%;
+    height: auto;
+    size: 50vh;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+  .image:hover {
+      opacity: 0.5;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+
+  }
+
+  @media screen and (max-width: 600px) {
+      body {
+          background: no-repeat url(imagenes/header2.png);
+      }
+  }
